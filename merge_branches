@@ -1,0 +1,17 @@
+COMMAND:
+git checkout main
+
+OUTPUT:
+Your branch is ahead of 'upstream/main' by 1 commit.
+  (use "git push" to publish your local commits)
+Already on 'main'
+
+COMMAND:
+git merge bug-fix-typo
+
+OUTPUT:
+Updating c80dd75..a0334a9
+Fast-forward
+ simple-interest.sh | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+ mode change 100644 => 100755 simple-interest.sh

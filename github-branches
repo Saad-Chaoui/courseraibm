@@ -1,0 +1,21 @@
+COMMAND:
+git branch -a
+
+OUTPUT:
+bug-fix-revert
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+  remotes/upstream/HEAD -> upstream/main
+  remotes/upstream/main
+
+COMMAND:
+git branch -vv
+
+OUTPUT:
+bug-fix-revert 29a50cb [origin/bug-fix-revert] Document assignment branches for bug-fix-revert PR
+  bug-fix-typo   a0334a9 [origin/bug-fix-typo] Fix typo in simple-interest.sh author comment
+* main           a0334a9 [origin/main] Fix typo in simple-interest.sh author comment
