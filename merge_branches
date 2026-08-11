@@ -10,7 +10,7 @@ COMMAND:
 git merge bug-fix-typo
 
 OUTPUT:
-Updating d43b5a0..64a4ea6
+Updating bf9202d..07e57fa
 Fast-forward
- README.md | 2 ++
- 1 file changed, 2 insertions(+)
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
