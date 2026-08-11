@@ -2,7 +2,7 @@ COMMAND:
 git branch -a
 
 OUTPUT:
-  bug-fix-revert
+bug-fix-revert
   bug-fix-typo
 * main
   remotes/origin/HEAD -> origin/main
@@ -16,6 +16,6 @@ COMMAND:
 git branch -vv
 
 OUTPUT:
-  bug-fix-revert de8a46d Prepare bug-fix-revert pull request
+bug-fix-revert de8a46d Prepare bug-fix-revert pull request
   bug-fix-typo   64a4ea6 fixed typo in README.md
-* main           64a4ea6 [origin/main: ahead 2] fixed typo in README.md
+* main           2eecd41 [origin/main] Refresh fork and pull request evidence with full API output
